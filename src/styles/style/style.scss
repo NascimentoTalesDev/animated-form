@@ -2,12 +2,11 @@
 
 .section-1{
     display: flex;
-    align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100%;
+    margin-top: 15vh;
     .form-container{
-        background-color: $backgroundColorFormContainer
+        background-color: $backgroundColorFormContainer;
         display: flex;
         flex-direction: column;
         padding: 2rem 0;
