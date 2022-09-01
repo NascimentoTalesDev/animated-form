@@ -7,12 +7,12 @@
     width: 100%;
     height: 100%;
     .form-container{
-        background-color: aqua;
+        background-color: $backgroundColorFormContainer
         display: flex;
         flex-direction: column;
-        height: 50%;
+        padding: 2rem 0;
         max-width: 700px;
-        width: 90%;
+        width: 80%;
         border-radius: 0.5rem;
         justify-content: center;
         align-items: center;
