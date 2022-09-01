@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  outline: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(184, 180, 180);
+  width: 100vw;
+  height: 100vh;
+}
+body .container {
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=commomsettins.css.map */

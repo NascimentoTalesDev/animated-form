@@ -1,0 +1,26 @@
+.squares{
+
+    li{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: antiquewhite;
+        // bottom: 0px;
+        display: flex;
+        animation: up 5s infinite alternate;
+        z-index: -10;
+    }
+}
+
+@keyframes up {
+    0%{
+        opacity: 0 ;
+        transform: translateY(200px);
+    }50%{
+        opacity: 1;
+
+    }100%{
+        transform: translateY(-110vh) rotate(960deg);
+        opacity: 0;
+    }
+}
