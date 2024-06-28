@@ -1,7 +1,5 @@
 const squares = document.querySelector(".squares")
 
-console.log(squares);
-
 for (let i = 0; i < 10; i++) {
     
     let li = document.createElement('li')
@@ -20,10 +18,7 @@ for (let i = 0; i < 10; i++) {
 
     li.style.animationDelay = `${delay}s`
     li.style.animationDuration = `${duration}s`
-    // li.style.animationFillMode = `cubic-bezier(${Math.random}, ${Math.random}, ${Math.random}, ${Math.random})`
 
     squares.appendChild(li)
-    console.log(li);
     document.querySelector("body").style.overflow = "hidden"
-
 }
