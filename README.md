@@ -12,11 +12,13 @@
 </p>
 <div align="center" >
   <div>
-    <video autoPlay controls loop src="./src/videos/animated-form-video.mp4" width="400px">
-    <img src="./src/images/img1.png" width="400px">
+    <video autoPlay controls loop>
+        <source src="./src/videos/animated-form-video.mp4" width="400px" type="video/mp4">
+    </video>
+    <img src="./src/images/img2.png" width="400px">
   </div>
   <div>
-    <img src="./src/images/img2.png" width="400px">
+    <img src="./src/images/img1.png" width="400px">
     <img src="./src/images/img3.png" width="400px">
   </div>
 </div>
